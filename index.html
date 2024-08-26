@@ -4,21 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
-
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Ejemplo</h1>
-    <button id="Boton">Click</button>
-    
-  
-<div id="imagen">
 
-  <img src="load-37_256.gif" alt="Imagen Recarga" >
+    <!-- Pantalla de carga -->
+    <div id="pantallaCarga">
+        <img src="load-37_256.gif" alt="Cargando...">
+    </div>
 
+    <!-- Contenido principal -->
+    <div id="contenidoPrincipal">
+        <h1>Ejercicios Programación</h1>
+        <button id="Boton">Mostrar información</button>
+
+        <div id="pantallaintermedia">
+            Gato naranja Gamer 
+        </div>
+    </div>
+
+    <!-- Pop-up de anuncio -->
+<div id="popupAnuncio">
+  <div id="popupContent">
+      <span id="cerrarPopup">&times;</span>
+      <h2>Ver anuncio Gato Gamer</h2>
+      <p>Anuncio después de 10 segundos.</p>
+      <img src="20210505_005717_mfnr.jpg" alt="Imagen gato gamer" id="imagenGatoGamer">
+  </div>
 </div>
 
-<div id="pantallaintermedia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, modi deleniti. Vero libero dolor maxime. Possimus corrupti officia, dolor quidem porro adipisci, tempora incidunt labore doloribus provident quia ipsum fugit!</div>
+
+    <!-- Barra de cookies -->
+    <div id="aceptarCookies">
+        <p>Este sitio utiliza cookies. <button id="botonAceptarCookies">Aceptar cookies</button></p>
+    </div>
 
 </body>
 </html>
+
+
